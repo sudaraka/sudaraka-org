@@ -1,0 +1,7 @@
+Default Template!
+
+{{ range .Data.Pages }}
+  {{ if eq .File.BaseFileName "home" }}
+    {{ .Content }}
+  {{ end }}
+{{ end }}

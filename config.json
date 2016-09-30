@@ -1,0 +1,11 @@
+{
+  "baseurl": "https://sudaraka.org/",
+
+  "disableRSS": true,
+  "enableRobotsTXT": true,
+  "disableHugoGeneratorInject": true,
+
+  "metaDataFormat": "json",
+
+  "pygmentsCodeFencesGuessSyntax": true
+}
