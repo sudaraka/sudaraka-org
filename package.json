@@ -1,0 +1,20 @@
+{
+  "name": "sudaraka-org",
+  "version": "0.0.0",
+  "description": "Website template and content for sudaraka.org, built using Hugo.",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server -p 5000",
+    "test": "exit 0;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sudaraka/sudaraka-org.git"
+  },
+  "author": "Sudaraka Wijesinghe <sudaraka@sudaraka.org> (https://sudaraka.org/)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/sudaraka/sudaraka-org/issues"
+  },
+  "homepage": "https://github.com/sudaraka/sudaraka-org#readme"
+}
