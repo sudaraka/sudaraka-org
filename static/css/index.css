@@ -1,0 +1,159 @@
+#div-content {
+  background: #fff url(/images/the_hermit.jpg) no-repeat 0 0;
+}
+
+
+h1 {
+  clear: both;
+  float: right;
+  font: bold italic 2.2em 'Droid Serif', serif;
+}
+
+.welcome {
+  clear: both;
+  float: right;
+  text-align: right;
+  width: 70%;
+  margin: 0 0 1rem;
+}
+
+.welcome small {
+  line-height: .7em;
+}
+
+.message {
+  clear: left;
+  float: left;
+  font-size: .9em;
+  margin: 1rem 1% 1rem 25%;
+  min-height: 10em;
+  width: 44%;
+}
+
+.message2 {
+  clear: right;
+    color: #660000;
+    float: right;
+    font-size: .8em;
+    margin: 0 0 1% 1%;
+    width: 26%
+}
+
+.column {
+  float: right;
+  clear: none;
+  margin: 1em 2%;
+  width: 28%;
+}
+
+
+.column strong em {
+  display: block;
+  text-align: center;
+}
+
+
+.column ul {
+  list-style-type: square;
+}
+
+.column li {
+  font-size: .9em;
+  line-height: 2em;
+}
+
+.column-1 {
+    color: #660000;
+    width: 32%;
+}
+
+.column-1 ul {
+    float: right;
+    font-size: .9em;
+  list-style-type: none;
+}
+
+.column-1 li {
+    float: left;
+    width: 33%;
+}
+
+@media screen and (max-width: 1366px) {
+    .message,
+    .message2 {
+        clear: both;
+        float: right;
+        margin-right: 0;
+        width: 66%;
+    }
+
+    .column-1 li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .message2 {
+        clear: both;
+        float: none;
+        font-size: .9em;
+        margin: 0;
+        width: 100%;
+    }
+
+    .column {
+        margin: 1em 2%;
+        width: 46%;
+    }
+
+    .column-1 {
+        clear: both;
+        float: none;
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    .column-1 ul {
+        font-size: 1em;
+    }
+
+    .column-1 li {
+        width: 33%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 1.5em;
+  }
+
+    .message {
+        clear: both;
+        float: none;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+  h1 {
+    float: left;
+    font-size: 1.1em;
+  }
+
+  .welcome {
+    text-align: left;
+    width: 100%;
+  }
+
+    .column {
+        clear: both;
+        float: none;
+        margin: 1% 0;
+        width: 100%;
+    }
+
+    .column-1 li {
+        width: 50%;
+    }
+}
