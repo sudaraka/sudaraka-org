@@ -1,5 +1,11 @@
 {
-  "baseurl": "https://sudaraka.org/",
+  "baseUrl": "https://sudaraka.org/",
+  "Params": {
+    "Description": "Sudaraka.Org - Personal web site of Sudaraka Wijesinghe - Freelance web application programmer",
+    "Keywords": "sudaraka wijesinghe,freelance,programmer,web site,server application,javascript,php,css,html,sudaraka.org",
+    "SiteName": "Sudaraka.Org",
+    "Slogan": "Chronicles of a Nocturnal Hermit"
+  },
 
   "disableRSS": true,
   "enableRobotsTXT": true,
