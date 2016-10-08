@@ -1,0 +1,14 @@
+table {
+	width: 100%;
+}
+
+table td {
+	padding: .5em 1em;
+}
+
+table em {
+	clear:right;
+	float: right;
+	font-size: smaller;
+	margin-left: 1em;
+}
