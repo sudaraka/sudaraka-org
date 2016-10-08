@@ -302,12 +302,6 @@ footer.wrapper {
 	margin: 2em 0 3em;
 }
 
-#div-sidebar #TableOfContents .tocheader {
-	color: #ccc;
-	font: bold 1em/1em 'Droid Sans', sans-serif;
-	margin: .5em 0;
-}
-
 #div-sidebar #TableOfContents a {
 	color: #aaa;
 	font-family: 'Droid Sans', sans-serif;
