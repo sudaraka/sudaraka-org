@@ -3,7 +3,6 @@
   "description": "Policy of Sudaraka.Org on Language/Content used on the website and User Privacy.",
   "keywords": "sudaraka.org,language,content,usage,privacy,policy"
 }
-# Policy
 
 Sudaraka.Org is a regular web site on the Internet, and you are exposed to both
 good and evil natures of the Internet while using this web site.

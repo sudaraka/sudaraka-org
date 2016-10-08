@@ -304,11 +304,6 @@ footer.wrapper {
 	margin: .5em 0;
 }
 
-#div-sidebar #TableOfContents > ul:first-child > li:first-child > a {
-	display: none;
-}
-
-
 #div-sidebar #TableOfContents a {
 	color: #aaa;
 	font-family: 'Droid Sans', sans-serif;
