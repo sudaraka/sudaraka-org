@@ -140,34 +140,21 @@ ol {
 	}
 }
 
-#div-content dt a, #div-content dt a:active,
-#div-content td a, #div-content td a:active,
-#div-content li a, #div-content li a:active,
-#div-content div a, #div-content div a:active,
-#div-content p a, #div-content p a:active {
+#div-content a, #div-content a:active {
 	border-bottom: 1px dotted #000;
 	color: #000;
 }
 
-#div-content dt a:hover,
-#div-content td a:hover,
-#div-content li a:hover,
-#div-content p a:hover {
+#div-content a:hover {
 	border-bottom: 1px solid #000;
 }
 
-#div-content dt a.urlextern, #div-content dt a.urlextern:active,
-#div-content td a.urlextern, #div-content td a.urlextern:active,
-#div-content li a.urlextern, #div-content li a.urlextern:active,
-#div-content p a.urlextern, #div-content p a.urlextern:active {
+#div-content a[href^=http], #div-content a[href^=http]:active {
 	border-bottom: 1px dotted #880000;
 	color: #880000;
 }
 
-#div-content dt a.urlextern:hover,
-#div-content td a.urlextern:hover,
-#div-content li a.urlextern:hover,
-#div-content p a.urlextern:hover {
+#div-content a[href^=http]:hover {
 	border-bottom: 1px solid #880000;
 }
 
