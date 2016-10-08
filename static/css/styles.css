@@ -307,52 +307,52 @@ footer.wrapper {
 	color: #fff;
 }
 
-#div-sidebar div#dw__toc {
+#div-sidebar #TableOfContents {
 	margin: 2em 0 3em;
 }
 
-#div-sidebar #dw__toc .tocheader {
+#div-sidebar #TableOfContents .tocheader {
 	color: #ccc;
 	font: bold 1em/1em 'Droid Sans', sans-serif;
 	margin: .5em 0;
 }
 
-#div-sidebar #dw__toc h3 {
+#div-sidebar #TableOfContents > ul:first-child > li:first-child > a {
 	display: none;
 }
 
 
-#div-sidebar #dw__toc a {
+#div-sidebar #TableOfContents a {
 	color: #aaa;
 	font-family: 'Droid Sans', sans-serif;
 }
 
-#div-sidebar #dw__toc ul {
+#div-sidebar #TableOfContents ul {
 	clear: both;
 	list-style-type: none;
 }
 
-#div-sidebar #dw__toc ul ul {
+#div-sidebar #TableOfContents ul ul ul {
 	font-size: .9em;
 	margin-left: .5em;
 }
 
-#div-sidebar #dw__toc ul li {
+#div-sidebar #TableOfContents ul li {
 	padding: .25em 0;
 }
 
-#div-sidebar #dw__toc ul li + li {
+#div-sidebar #TableOfContents ul li + li {
 	border-top: 1px dotted #333;
 }
 
-#div-sidebar #dw__toc ul ul li:before {
+#div-sidebar #TableOfContents ul ul ul li:before {
 	color: #888;
 	content: '→';
 	float: left;
 	margin-right: .25em;
 }
 
-#div-sidebar #dw__toc ul ul li {
+#div-sidebar #TableOfContents ul ul ul li {
 	border-top: none;
 	line-height: 1.25em;
 	padding: 0;

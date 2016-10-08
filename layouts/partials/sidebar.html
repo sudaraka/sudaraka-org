@@ -12,6 +12,10 @@
 
     {{ partial "top-links" . }}
 
+    {{ if not .IsHome }}
+      {{ .TableOfContents }}
+    {{ end }}
+
     {{ partial "navigation" . }}
 
     <div class="clear"></div>
