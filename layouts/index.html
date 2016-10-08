@@ -29,51 +29,7 @@
       </article>
     </div>
 
-    <aside id="div-sidebar" class="area">
-      <div class="wrapper">
-
-        <div class="title">
-          <a href="/" title="{{ .Site.Params.Slogan }} - {{ .Site.Params.SiteName }}" rel="home">
-            <span>{{ .Site.Params.SiteName }}</span>
-            <p>...{{ .Site.Params.Slogan }}...</p>
-          </a>
-        </div>
-
-        {{ partial "sn-icons" . }}
-
-        {{ partial "top-links" . }}
-
-        {{ partial "navigation" . }}
-
-        <div class="clear"></div>
-
-        <div class="crl">
-
-          {{ partial "bottom-links" . }}
-
-          <div class="clear"></div>
-
-          <cite>Sudaraka.Org &mdash; <a href="/copyright/#article-page-content-on-sudarakaorg">Copyright</a> 2012-2016 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
-          <p>
-            <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">Sudaraka.Org</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://sudaraka.org/about-sudaraka-wijesinghe/" property="cc:attributionName" rel="cc:attributionURL">Sudaraka Wijesinghe</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/sudaraka/sudaraka-org" rel="dct:source">https://github.com/sudaraka/sudaraka-org</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="https://sudaraka.org/terms-and-conditions/" rel="cc:morePermissions">https://sudaraka.org/terms-and-conditions/</a>.
-          </p>
-          <br />
-
-          <cite>Theme &mdash; <a href="/copyright/#theme-for-sudarakaorg">Copyright</a> 2012-2016 <a rel="me" href="/about-sudaraka-wijesinghe/">Sudaraka Wijesinghe</a>.</cite>
-
-          <p>
-            This program comes with ABSOLUTELY NO WARRANTY;
-            This is free software, and you are welcome to redistribute it and/or modify
-            it under the terms of the BSD 2-clause License. See the LICENSE file for more
-            details.
-          </p>
-
-          <p>Get the source code from <a href="https://github.com/sudaraka/sudaraka-org" target="_new">Git repository</a>.</p>
-
-        </div>
-
-      </div>
-    </aside>
+    {{ partial "sidebar" . }}
 
   </body>
 </html>
