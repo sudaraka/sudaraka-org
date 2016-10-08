@@ -53,8 +53,8 @@ td + th {
 	border-left: 1px solid #888;
 }
 
-tr + tr th,
-tr + tr td {
+tbody th,
+tbody td {
 	border-top: 1px solid #888;
 }
 
