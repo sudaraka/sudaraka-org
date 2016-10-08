@@ -1,3 +1,35 @@
-Single Template!
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ .Title }} &mdash; {{ .Site.Params.SiteName }}</title>
 
-{{ .Content }}
+    <meta name="title" content="{{ .Site.Params.Slogan }}">
+    <meta name="charset" content="utf-8">
+    <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
+    <meta name="keywords" content="{{ delimit .Keywords "," | default .Site.Params.Keywords }}">
+
+    <link rel="shortcut icon" type="image/png" href="/images/lamp.png">
+    <link rel="canonical" href="{{ .Permalink }}">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css">
+  </head>
+  <body>
+
+    <div id="div-content" class="area">
+      <article class="wrapper">
+        {{ .Content }}
+
+        <div class="clear"></div>
+      </article>
+    </div>
+
+    {{ partial "sidebar" . }}
+
+    <script>
+      (function() {
+        document.querySelectorAll('a[href^=http]').forEach(function(a) { a.setAttribute('target', '_new') })
+      }())
+    </script>
+  </body>
+</html>
