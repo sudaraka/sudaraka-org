@@ -129,6 +129,10 @@ ol {
 	min-height: 1920px;
 }
 
+#div-content .wrapper ul ul {
+ margin-left: 1rem;
+}
+
 @media screen and (max-height: 1600px) {
 	#div-content {
 		min-height: 1600px;
