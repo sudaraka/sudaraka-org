@@ -9,7 +9,7 @@ tube. While you are here, feel free to roam around._
 {{< /div >}}
 
 {{< div message >}}
-**[Sudaraka Wijesinghe](about-sudaraka-wijesinghe)** is a computer
+**[Sudaraka Wijesinghe](/about-sudaraka-wijesinghe)** is a computer
 **programmer** with experience in:
 
   * **Web application** programming in **Node.js** and **PHP**
