@@ -1,0 +1,34 @@
+.certs {
+    overflow: hidden;
+}
+
+.certs a {
+    border: none;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.certs img {
+    border: 1px solid #ccc;
+    float: left;
+    margin: .75%;
+    padding: 1px;
+}
+
+.coursera-certs div {
+    float: left;
+    width: 410px;
+    text-align: center;
+}
+
+.coursera-certs div:nth-child(even) {
+    margin-left: 20px;
+}
+
+.udemy-certs div,
+.mongo-certs div {
+    float: left;
+    width: 550px;
+    text-align: center;
+    margin: 0 25px 1rem;
+}
