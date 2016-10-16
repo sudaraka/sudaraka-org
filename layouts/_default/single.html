@@ -3,7 +3,7 @@
   <head>
     <title>{{ .Title }} &mdash; {{ .Site.Params.SiteName }}</title>
 
-    <meta name="title" content="{{ .Site.Params.Slogan }}">
+    <meta name="title" content="{{ .Title }}">
     <meta name="charset" content="utf-8">
     <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
     <meta name="keywords" content="{{ delimit .Keywords "," | default .Site.Params.Keywords }}">
