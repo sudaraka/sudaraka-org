@@ -629,3 +629,14 @@ a, a:active {
 }
 
 } /* @media print */
+
+.section-list h2 {
+  color: #333;
+  margin-bottom: .125em;
+}
+
+.section-list time {
+  display: inline-block;
+  font-style: italic;
+  margin-bottom: 1em;
+}

@@ -1,0 +1,11 @@
+{{ range .Data.Pages }}
+  <article class="section-list">
+    <a href="{{ .RelPermalink }}">
+      <h2>{{ .Title }}</h2>
+    </a>
+    <small>
+      <time>{{ .Date.Format "January 2, 2006" }}</time>
+    </small>
+    {{ .Summary }}
+  </article>
+{{ end }}
