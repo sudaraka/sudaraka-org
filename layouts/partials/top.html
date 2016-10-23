@@ -1,9 +1,10 @@
+{{ $title := .Title | singularize | humanize }}
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{{ .Title }} &mdash; {{ .Site.Params.SiteName }}</title>
+    <title>{{ $title }} &mdash; {{ .Site.Params.SiteName }}</title>
 
-    <meta name="title" content="{{ .Title }}">
+    <meta name="title" content="{{ $title }}">
     <meta name="charset" content="utf-8">
     <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
     <meta name="keywords" content="{{ delimit .Keywords "," | default .Site.Params.Keywords }}">
@@ -21,4 +22,4 @@
 
     <div id="div-content" class="area">
       <article class="wrapper">
-        <h1>{{ .Title }}</h1>
+        <h1>{{ $title }}</h1>
