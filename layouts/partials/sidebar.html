@@ -12,7 +12,7 @@
 
     {{ partial "top-links" . }}
 
-    {{ if not .IsHome }}
+    {{ if .IsPage }}
       {{ .TableOfContents }}
     {{ end }}
 

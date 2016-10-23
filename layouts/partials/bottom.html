@@ -1,0 +1,13 @@
+        <div class="clear"></div>
+      </article>
+    </div>
+
+    {{ partial "sidebar" . }}
+
+    <script>
+      (function() {
+        document.querySelectorAll('a[href^=http]').forEach(function(a) { a.setAttribute('target', '_new') })
+      }())
+    </script>
+  </body>
+</html>

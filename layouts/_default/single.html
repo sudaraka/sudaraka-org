@@ -1,40 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>{{ .Title }} &mdash; {{ .Site.Params.SiteName }}</title>
+{{ partial "top.html" . }}
 
-    <meta name="title" content="{{ .Title }}">
-    <meta name="charset" content="utf-8">
-    <meta name="description" content="{{ .Description | default .Site.Params.Description }}">
-    <meta name="keywords" content="{{ delimit .Keywords "," | default .Site.Params.Keywords }}">
+  {{ .Content }}
 
-    <link rel="shortcut icon" type="image/png" href="/images/lamp.png">
-    <link rel="canonical" href="{{ .Permalink }}">
-
-    <link rel="stylesheet" type="text/css" media="screen" href="/css/fonts.css">
-    <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css">
-    {{ if .Params.css }}
-    <link rel="stylesheet" type="text/css" media="all" href="/css/{{ .File.BaseFileName }}.css">
-    {{ end }}
-  </head>
-  <body>
-
-    <div id="div-content" class="area">
-      <article class="wrapper">
-        <h1>{{ .Title }}</h1>
-
-        {{ .Content }}
-
-        <div class="clear"></div>
-      </article>
-    </div>
-
-    {{ partial "sidebar" . }}
-
-    <script>
-      (function() {
-        document.querySelectorAll('a[href^=http]').forEach(function(a) { a.setAttribute('target', '_new') })
-      }())
-    </script>
-  </body>
-</html>
+{{ partial "bottom.html" . }}
