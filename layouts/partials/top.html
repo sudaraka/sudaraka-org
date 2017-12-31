@@ -1,4 +1,8 @@
-{{ $title := .Title | singularize | humanize }}
+{{ if .IsNode }}
+  {{ $title := .Title }}
+{{ else }}
+  {{ $title := .Title | singularize | humanize }}
+{{ end }}
 <!DOCTYPE html>
 <html>
   <head>
